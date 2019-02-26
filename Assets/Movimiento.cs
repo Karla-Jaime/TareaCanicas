@@ -10,7 +10,7 @@ public class Movimiento : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        rb2d.AddForce(Vector2.right * 400, ForceMode2D.Force);
+        rb2d.AddForce(Vector2.right * 800, ForceMode2D.Force);
     }
 
 }
